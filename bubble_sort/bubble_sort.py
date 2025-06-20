@@ -16,12 +16,8 @@ def bubble_sort(unsorted_list):
 
     return unsorted_list
 
+
 my_list = [5, 2, 9, 1, 5, 6]
-sorted_list = bubble_sort(my_list)
-print("Sorted list:", sorted_list)
-
-
-my_list = list(map(int, input().split()))
 sorted_list = bubble_sort(my_list)
 print("Sorted list:", sorted_list)
 
